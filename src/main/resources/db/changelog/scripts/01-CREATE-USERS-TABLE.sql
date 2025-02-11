@@ -1,6 +1,6 @@
-CREATE TABLE gym_app.users (
+CREATE TABLE  gym_app.users (
   id BIGINT PRIMARY KEY,
-  username UNIQUE VARCHAR(255) NOT NULL,
+  username VARCHAR(255) NOT NULL,
   password VARCHAR(255) NOT NULL,
   email VARCHAR(255) NOT NULL,
   role VARCHAR(255) NOT NULL,

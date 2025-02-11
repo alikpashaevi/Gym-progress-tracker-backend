@@ -1,4 +1,7 @@
 spring:
+#  security:
+#    jwt:
+#      secret: "Y3JlYXRlX2FfcmFuZG9tX2NvZGVyX2p3dA=="
   datasource:
     url: ${JAVA_COURSE_DB_URL}
     username: ${JAVA_COURSE_DB_USERNAME}
